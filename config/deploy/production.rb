@@ -14,7 +14,7 @@
 
 set :stage, "production"
 
-set :user, 'deployuser'
+set :user, 'rob'
 set :use_sudo, false
 
 server 'localhost', :app, :web, :primary => true
@@ -24,7 +24,7 @@ server 'localhost', :db, :no_release => true
 
 set :base_dir, "/Users/rob/wp-cap-demo"
 set :deploy_to, File.join(fetch(:base_dir))
-set :current_dir, "httpdocs"
+set :current_dir, "current"
 set(:wp_path) { File.join(release_path, "wp") }
 # :version_dir - where versions live, 'versions'
 # :shared_dir - where shared files (wordpress cache, et cetera) live, 'shared'

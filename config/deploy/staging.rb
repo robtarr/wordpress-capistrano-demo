@@ -14,7 +14,7 @@
 
 set :stage, "staging"
 
-set :user, 'deployuser'
+set :user, 'rob'
 set :use_sudo, false
 
 server '172.16.1.42', :app, :web, :primary => true

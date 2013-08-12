@@ -28,7 +28,7 @@ set :application, "my_application"
 # app source repository configuration
 
 set :scm, :git
-set :repository, "https://github.com/example/example-wp.git"
+set :repository, "https://github.com/robtarr/wordpress-capistrano-demo.git"
 set :git_enable_submodules, 1
 
 #=============================================================================
